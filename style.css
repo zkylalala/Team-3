@@ -90,7 +90,7 @@ h1 {
     }
 
     #map {
-        height: 600px; /* Increase the height for mobile devices */
+        height: 400px; /* Increase the height for mobile devices */
     }
 
     .output {
