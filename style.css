@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    font-family: 'Arial', sans-serif; 
+    
+}
+
+.header-container {
+    text-align: left; /* Aligns content to the left */
+    padding-left: 20px; /* Adds some padding on the left */
+}
+
+.search-container input[type="text"] {
+    width: 300px; /* Sets the width of the search bar */
+    padding: 5px; /* Adds some padding inside the search bar */
+    margin-right: 10px; /* Adds margin between the search bar and button */
+}
+
+.search-container button {
+    padding: 5px 15px; /* Adjust button padding */
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+}
+
+#map { 
+    margin-top: 20px;
+    height: 480px; 
+  
+}
+
+.legend {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Adjust the space between legend items */
+}
+
+.legend span {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.output {
+    color: #333;
+    font-size: 32px;
+    text-align: left;
+    display: inline-block; /* Centers the output block */
+    margin-top: 20px; /* Spacing from the map */
+}
+
+.output ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0; /* Removes default margin */
+}
+
+.output li {
+    margin-bottom: 10px; /* Spacing between list items */
+}
