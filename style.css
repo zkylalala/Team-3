@@ -71,3 +71,34 @@ h1 {
 .output li {
     margin-bottom: 10px; /* Spacing between list items */
 }
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        padding-left: 10px;
+    }
+
+    .search-container input[type="text"] {
+        width: 200px; /* Smaller width for smaller screens */
+    }
+
+    .search-container button {
+        padding: 5px 10px;
+    }
+
+    h1 {
+        font-size: 1.5em; /* Smaller font size */
+    }
+
+    #map {
+        height: 300px; /* Smaller map height */
+    }
+
+    .output {
+        font-size: 24px; /* Smaller font size for output */
+    }
+
+    .legend {
+        flex-direction: column; /* Stack legend items vertically */
+        gap: 15px;
+    }
+}
