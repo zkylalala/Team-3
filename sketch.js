@@ -95,13 +95,13 @@ function getData(data) {
   curLoc = data.name;
   curTemp = data.main.temp;
   curBody = data.main.feels_like;
-  curhumid = data.main.humidity;
+  //curhumid = data.main.humidity;
   curWind = data.wind.speed;
-  document.getElementById("weather").textContent = curWeather.toUpperCase();
-  document.getElementById("location").textContent = curLoc.toUpperCase();
+  document.getElementById("weather").textContent = curWeather;
+  document.getElementById("location").textContent = curLoc;
   document.getElementById("temp").textContent = curTemp;
   document.getElementById("bodytemp").textContent = curBody;
-  document.getElementById("humid").textContent = curhumid;
+  //document.getElementById("humid").textContent = curhumid;
   document.getElementById("wind").textContent = curWind;
 
   var tempDot = document.getElementById("temp-dot");
